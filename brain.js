@@ -14,7 +14,7 @@ controls.enableDamping = true;
 
 // Load model
 const loader = new THREE.GLTFLoader();
-loader.load('brain_project.glb', function(gltf) {
+loader.load('models/brain_project.glb', function(gltf) {
   const brain = gltf.scene;
   brain.scale.set(2, 2, 2);
   scene.add(brain);
