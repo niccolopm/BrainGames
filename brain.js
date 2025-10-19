@@ -10,7 +10,7 @@ scene.add(light);
 
 // Load brain model
 const loader = new THREE.GLTFLoader();
-loader.load('models/brain.glb', function(gltf) {
+loader.load('brain_project.glb', function(gltf) {
   const brain = gltf.scene;
   brain.scale.set(2, 2, 2);
   scene.add(brain);
